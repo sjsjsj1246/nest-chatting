@@ -15,7 +15,7 @@ import { ChatsGateway } from './chats/chats.gateway';
     ChatsModule,
   ],
   controllers: [AppController],
-  providers: [ChatsGateway],
+  providers: [],
 })
 export class AppModule implements NestModule {
   configure() {
